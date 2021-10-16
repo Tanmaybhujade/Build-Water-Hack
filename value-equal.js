@@ -1,4 +1,4 @@
-'use strict';;
+'use strict';
 
 function valueOf(obj) {
   return obj.valueOf ? obj.valueOf() : Object.prototype.valueOf.call(obj);
