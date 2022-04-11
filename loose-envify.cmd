@@ -4,4 +4,4 @@
   @SETLOCAL
   @SET PATHEXT=%PATHEXT:;.JS;=;%
   node  "%~dp0\..\loose-envify\cli.js" %*
-)..
+).
